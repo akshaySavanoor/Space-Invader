@@ -49,7 +49,7 @@ $python main.py
  
  you must install pygame in $HOME in order to save in bin 
  
- #if you want information regarding WLAN,WAN or using public ip payload creation and exploitation in metasploit-framework comment in issue page
+ #if you want information regarding WLAN,WAN or using public ip payload creation and exploitation in metasploit-framework check pre release
  
  
  #install mirrorscript-v2 if your kali machine is working too slowly
