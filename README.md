@@ -1,7 +1,7 @@
 # wizzGame
 THIS IS SIMPLE SPACE INVADER GAME
-TERMUX/LINUX INSTALLATION
-update your termux
+#TERMUX/LINUX INSTALLATION
+#update your termux
 $apt update && apt upgrade
 install git
 $pkg install git
