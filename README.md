@@ -22,7 +22,7 @@ $pip install pygame
 
 install git clone link below
 
-$https://github.com/WIZARD00007/wizzGame
+$git clone https://github.com/WIZARD00007/wizzGame
 
 change directory
 
