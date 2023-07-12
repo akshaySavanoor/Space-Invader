@@ -4,7 +4,7 @@
 
 This is a simple Space Invader game created using Python and Pygame.
 
-## TERMUX/LINUX INSTALLATION
+## INSTALLATION
 
 1. Update your Termux by running the following command:
 
