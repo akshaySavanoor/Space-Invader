@@ -30,7 +30,7 @@ enemyX = []
 enemyY = []
 enemyX_change = []
 enemyY_change = []
-num_of_enemies = 6
+num_of_enemies = 4
 
 for i in range(num_of_enemies):
     enemyImage.append(pygame.image.load('enemy.png'))
@@ -129,7 +129,7 @@ while running:
 
         if enemyY[i] > 440:
             for j in range(num_of_enemies):
-                enemyY[j] = 2000
+                enemyY[j] = 1000
                 game_over_text()
                 break
 
@@ -137,7 +137,8 @@ while running:
 
         # boundary control
         if enemyX[i] <= 0:
-            enemyX_change[i] = 4
+            enemyX_change[i] = 2
+
             enemyY[i] += enemyY_change[i]
         elif enemyX[i] >= 736:
             enemyX_change[i] = -4
@@ -166,3 +167,4 @@ while running:
     player(playerX, playerY)
     show_score(textX, testY)
     pygame.display.update()
+    pygame.time.delay(10)
